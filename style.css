@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+.nav-header {
+    border:  2px solid red;    
+}
+
+.container-nav {
+    border:  2px solid red;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
