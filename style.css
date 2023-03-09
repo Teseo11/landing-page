@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300&display=swap');
 
 * {
     box-sizing: border-box;
@@ -28,7 +28,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 15px;
+    padding: 0 100px 100px 100px;
 }
 
 .container-nav {
@@ -94,10 +94,10 @@ a {
 }
 
 .content-top {
-    border: 2px solid rebeccapurple;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 100px 100px 100px;
 }
 
 .text-top {
@@ -127,5 +127,16 @@ img{
 
         /* Main content mid*/
 
+.content-mid {
+    background-color: #E5E7EB;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
 
-
+.quote-text {
+    width: 700px;
+    font-size: 36px;
+    color: #1f2937;
+}
