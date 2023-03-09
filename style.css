@@ -83,4 +83,49 @@ a {
 
 
 
-        /* Main content */
+        /* Main content top*/
+
+
+.content-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-top {
+    border: 2px solid rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-top {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding: 30px;
+}
+
+.cards {
+    display: flex;
+    text-align: center;
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+}
+
+img{
+   height: 200px;
+   width: 200px;
+}
+
+        /* Main content mid*/
+
+
+
