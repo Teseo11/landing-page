@@ -116,6 +116,7 @@ button {
     flex: 1;
     flex-wrap: wrap;
     gap: 50px;
+    margin-bottom: 60px;
 }
 
 .cards {
